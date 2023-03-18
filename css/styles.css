@@ -1,0 +1,159 @@
+body {
+  font-family: Roboto, sans-serif;
+  font-style: Roboto, normal;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.heider-logo {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.heider-logo-span {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #2e2f42;
+}
+
+.heider-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.heider-link-mail {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.heider-link-tel {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.main-sec1-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.main-sec1-but {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+
+.main-item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.main-sec2-par {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.main-sec3-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.main-sec4-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.sec4-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.main-sec4-par {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.footer-par {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+/* portfolio */
+
+.portfolio-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+}
+
+.portfolio-title-photo {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.portfolio-paragraph {
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #434455;
+}
