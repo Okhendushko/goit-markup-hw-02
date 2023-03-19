@@ -54,6 +54,9 @@ body {
   color: #2e2f42;
 }
 
+.heider-addres {
+  font-style: normal
+}
 .heider-link-mail {
   font-style: normal;
   font-weight: 400;
@@ -154,6 +157,10 @@ body {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.footer {
+  background-color: #2e2f42 
 }
 .footer-par {
   font-weight: 400;
