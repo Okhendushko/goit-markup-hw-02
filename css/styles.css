@@ -92,23 +92,30 @@ color: #404bbf
   color: #404bbf;
 }
 
-.main-sec1-title {
+.main-seca-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.07; 
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
 }
 
-.main-sec1-but {
+.main-seca-but {
+  font-family: "Roboto", sans-serif; 
+  background-color: #4D5AE5;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
+  cursor: pointer;
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
   color: #ffffff;
+}
+
+.main-seca-but:is(:hover, :focus) {
+  color:  #404BBF;
 }
 
 .main-item-title {
@@ -119,7 +126,7 @@ color: #404bbf
   color: #2e2f42;
 }
 
-.main-sec2-par {
+.main-secb-par {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
