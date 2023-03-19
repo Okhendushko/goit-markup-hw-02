@@ -65,7 +65,9 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
-
+.heider-link:is(:hover, :focus) {
+color: #404bbf
+}
 .heider-link-mail:hover {
   color: #404bbf;
 }
