@@ -1,12 +1,6 @@
 :root {
   --color-white: #ffffff;
-  --color-okean: #404bbf;
-  --color-background: #ffffff;
-  --color-iris: #4d5ae5;
-  --color-background-btn: #404bbf;
-  --color-background-main: #2e2f42;
-  --color-main: #434455;
-  --color-claud: #f4f4fd;
+  
 }
 
 body {
@@ -111,7 +105,7 @@ body {
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
-line-height: 15;
+line-height: 1.5;
 display: flex;
 align-items: center;
 letter-spacing: 0.04em;
