@@ -1,5 +1,6 @@
 :root {
   --color-white: #ffffff;
+  --background-color: #2e2f42;
 }
 
 body {
@@ -86,7 +87,7 @@ body {
 }
 
 .main-sector {
-  background-color: #2e2f42;
+  color: var(--background-color);
 }
 
 .main-sector-title {
@@ -170,7 +171,6 @@ body {
 }
 
 .footer-par {
-  
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
