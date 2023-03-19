@@ -7,14 +7,13 @@
   --color-background-main: #2e2f42;
   --color-main: #434455;
   --color-claud: #f4f4fd;
-
 }
 
 body {
-  color:#434455;
+  color: #434455;
   background-color: #ffffff;
-  font-family: 'Roboto', sans-serif;
-  font-style: 'Roboto', normal;
+  font-family: "Roboto", sans-serif;
+  font-style: "Roboto", normal;
 }
 
 .list {
@@ -26,25 +25,25 @@ body {
 }
 
 .heider-logo {
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 800;
-font-size: 18px;
-line-height: 1.17;
-text-transform: uppercase;
-letter-spacing: 0.03em;
-color: #4D5AE5;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
 }
 
 .heider-logo-span {
-  font-family: 'Raleway';
-font-style: normal;
-font-weight: 800;
-font-size: 18px;
-line-height: 1.17px;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #2E2F42;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
 }
 
 .heider-link {
@@ -64,6 +63,14 @@ color: #2E2F42;
   color: #434455;
 }
 
+.heider-link-mail:hover {
+  color: #404bbf;
+}
+
+.heider-link-mail:focus {
+  color: #404bbf;
+}
+
 .heider-link-tel {
   font-style: normal;
   font-weight: 400;
@@ -71,6 +78,13 @@ color: #2E2F42;
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.heider-link-tel:hover {
+  color: #404bbf;
+}
+.heider-link-tel:focus {
+  color: #404bbf;
 }
 
 .main-sec1-title {
@@ -170,9 +184,9 @@ color: #2E2F42;
 }
 
 .portfolio-paragraph {
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-letter-spacing: 0.02em;
-color: #434455;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
