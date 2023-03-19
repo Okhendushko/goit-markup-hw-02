@@ -135,7 +135,7 @@ body {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: #434455;
+  color:#434455;
 }
 
 .main-sec3-title {
@@ -145,7 +145,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color:#2e2f42;
 }
 
 .main-sec4-title {
@@ -153,7 +153,7 @@ body {
   font-size: 36px;
   line-height: 40px;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color:#2e2f42;
 }
 
 .sec4-title {
@@ -161,7 +161,7 @@ body {
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color:#2e2f42;
 }
 
 .main-sec4-par {
@@ -169,18 +169,21 @@ body {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: #434455;
+  color:#434455;
 }
 
 .footer {
-  background-color: #2e2f42;
+  background-color:#2e2f42;
 }
+
 .footer-par {
+  
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  color: #f4f4fd;
+  line-height: 1.5;
+ letter-spacing: 0.02em;
+  color: #F4F4FD;
+  
 }
 /* portfolio */
 
