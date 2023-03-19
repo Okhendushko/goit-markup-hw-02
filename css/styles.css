@@ -26,20 +26,25 @@ body {
 }
 
 .heider-logo {
-  font-family: "Raleway";
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 21px;
-  text-transform: uppercase;
-  color: #4d5ae5;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+text-transform: uppercase;
+letter-spacing: 0.03em;
+color: #4D5AE5;
 }
+
 .heider-logo-span {
-  font-family: "Raleway";
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 21px;
-  text-transform: uppercase;
-  color: #2e2f42;
+  font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #2E2F42;
 }
 
 .heider-link {
