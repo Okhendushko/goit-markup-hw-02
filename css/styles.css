@@ -255,6 +255,14 @@ img {
   background: var(--primary-brand-color);
 }
 
+.sub-text-progect {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+
 .progect-card-title {
   font-weight: 500;
   font-size: 20px;
