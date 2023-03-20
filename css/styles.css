@@ -168,16 +168,15 @@ background: var(--dark-color);
 
 /*-----------Section-3-------------*/
 
-.main-secta-title {
+.title-about {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  text-align: center;
+  color: var(--dark-color);
 }
-
 /*-----------Section-4-------------*/
 
 .main-section-title {
