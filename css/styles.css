@@ -32,7 +32,8 @@ img {
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
+  font-style: "Roboto", normal;
   background-color: var(--white-color);
   color: var(--text-color);
 }
