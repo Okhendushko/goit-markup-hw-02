@@ -191,8 +191,7 @@ img {
 }
 /*-----------Section-4-------------*/
 .main-section {
-  background-color: #f4f4fd;
-  background-color: #ffffff;
+  color: var(--light-color)
 }
 
 /*------------Footer-------------*/
