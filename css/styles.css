@@ -1,14 +1,12 @@
 :root {
   --color-white: #ffffff;
-   --dark-color: #2e2f42;
-   --white-color: #ffffff;
+  --dark-color: #2e2f42;
+  --white-color: #ffffff;
   --primary-brand-color: #4d5ae5;
-  --pressed-state-color: #404BBF;
- --text-color: #434455;
-
+  --pressed-state-color: #404bbf;
+  --text-color: #434455;
 }
-body 
-{
+body {
   color: #434455;
   background-color: #ffffff;
   font-family: "Roboto", sans-serif;
@@ -27,7 +25,8 @@ h1,
 h2,
 h3 {
   margin-top: 0;
-  margin-bottom: 0;}
+  margin-bottom: 0;
+}
 
 /*-----------HEADER----------------*/
 
@@ -102,7 +101,7 @@ h3 {
 /*-----------Section-1-------------*/
 
 .sector {
-background: var(--dark-color);
+  background: var(--dark-color);
 }
 
 .main-title {
@@ -143,7 +142,6 @@ background: var(--dark-color);
 
 /*-----------Section-2-------------*/
 
-
 .main-secb-par {
   font-weight: 400;
   font-size: 16px;
@@ -179,13 +177,8 @@ background: var(--dark-color);
 }
 /*-----------Section-4-------------*/
 
-.main-section-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
+
+
 
 
 
@@ -245,5 +238,3 @@ background: var(--dark-color);
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-
-
