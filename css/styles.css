@@ -1,6 +1,8 @@
 :root {
   --color-white: #ffffff;
-  --background-color: #2e2f42;
+   --dark-color: #2e2f42;
+   --white-color: #ffffff;
+    --primary-brand-color: #4d5ae5;
 }
 
 body {
@@ -91,10 +93,10 @@ body {
 /*-----------Section-1-------------*/
 
 .sector {
-  color: var(--background-color);
+background: var(--dark-color);
 }
 
-.sector-title {
+.main-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -104,16 +106,16 @@ body {
 }
 
 .sector-but {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.04em;
+  color: var(--white-color);
+  background: var(--primary-brand-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
   cursor: pointer;
-  color: #ffffff;
 }
 
 .main-sector-but:is(:hover, :focus) {
