@@ -191,12 +191,9 @@ img {
 }
 /*-----------Section-4-------------*/
 .main-section {
- background-color: #F4F4FD;
-  background-color: #FFFFFF;
+  background-color: #f4f4fd;
+  background-color: #ffffff;
 }
-
-
-
 
 /*------------Footer-------------*/
 
@@ -249,11 +246,11 @@ img {
   cursor: pointer;
 }
 
-.button-filter:hover,
+.button-filter:hover 
+{background: var(--primary-brand-color);}
 .button-filter:focus {
   color: var(--white-color);
-  background: var(--primary-brand-color);
-}
+ }
 
 .sub-text-progect {
   font-weight: 400;
