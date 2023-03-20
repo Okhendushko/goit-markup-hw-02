@@ -9,125 +9,74 @@
   --pressed-state-color: #404bbf;
   --white-color: #ffffff;
 }
-body {
-  color: #434455;
-  background-color: #ffffff;
-  font-family: "Roboto", sans-serif;
-  font-style: "Roboto", normal;
-}
-
 .list {
   list-style: none;
 }
-
 .link {
   text-decoration: none;
 }
-
 h1,
 h2,
 h3 {
   margin-top: 0;
   margin-bottom: 0;
 }
-
 ul,
 ol {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
 }
-
 img {
   display: block;
 }
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--text-color);
+}
 
-/*-----------HEADER----------------*/
-
-.heider-logo {
-  font-family: "Raleway", sans-serif;
-  font-style: normal;
+/* ==========HEADER========= */
+.logo-page {
+  font-family: var(--second-font);
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  text-transform: uppercase;
+  align-items: center;
   letter-spacing: 0.03em;
-  color: #4d5ae5;
+  text-transform: uppercase;
+  color: var(--primary-brand-color);
 }
-
-.heider-logo-span {
-  font-family: "Raleway", sans-serif;
-  font-style: normal;
+.text-logo {
+  font-family: var(--second-font);
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.17px;
+  line-height: 1.17;
+  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: var(--dark-color);
 }
-
-.heider-link {
+.contact {
+  font-style: normal;
+}
+.menu-link {
+  color: var(--dark-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
 }
 
-.heider-addres {
-  font-style: normal;
-}
-.heider-link-mail {
-  font-style: normal;
-  font-weight: 400;
+.main-contact {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--text-color);
 }
-.heider-link:is(:hover, :focus) {
-  color: #404bbf;
-}
-.heider-link-mail:hover {
-  color: #404bbf;
-}
+/* ==========/HEADER========= */
 
-.heider-link-mail:focus {
-  color: #404bbf;
-}
-
-.heider-link-tel {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-
-.heider-link-tel:hover {
-  color: #404bbf;
-}
-.heider-link-tel:focus {
-  color: #404bbf;
-}
-
-/*-----------Section-1-------------*/
-
-.sector {
-  background: var(--dark-color);
-}
-
-.main-title {
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: #ffffff;
-}
-
-.sector-but {
+/* ===========HERO=========== */
+.model-button {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -148,21 +97,20 @@ img {
   letter-spacing: 0.04em;
   color: var(--white-color);
 }
-
-.sector-but:hover,
-.sector-but:focus {
-  background: var(--pressed-state-color);
+.hero {
+  background: var(--dark-color);
 }
-
-/*-----------Section-2-------------*/
-
-.main-secb-par {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
+.main-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--white-color);
+  text-align: center;
 }
+/* ===========/HERO=========== */
+
+/* ===========FEATURE==========*/
 
 .title-feature {
   font-weight: 500;
@@ -177,9 +125,9 @@ img {
   letter-spacing: 0.02em;
   color: var(--text-color);
 }
+/* ===========/FEATURE==========*/
 
-/*-----------Section-3-------------*/
-
+/*==========SECTION ABOUT ======*/
 .title-about {
   font-weight: 700;
   font-size: 36px;
@@ -189,48 +137,24 @@ img {
   text-align: center;
   color: var(--dark-color);
 }
-/*-----------Section-4-------------*/
-.main-section {
-  color: var(--light-color)
-}
+/*==========/SECTION ABOUT ======*/
 
-/*------------Footer-------------*/
-
-.footer {
-  background-color: #2e2f42;
-}
-
-.footer-logo {
-  font-family: "Raleway", sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  text-transform: uppercase;
-  letter-spacing: 0.03em;
-  color: #4d5ae5;
-}
-
-.footer-par {
-  font-weight: 400;
+/*==============FOOTER============*/
+.text-footer {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #f4f4fd;
+  color: var(--accent-color);
 }
-
-.footer-logo-span {
-  font-family: "Raleway", sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #f4f4fd;
+.footer {
+  background: var(--dark-color);
 }
-/* ----------portfolio----------- */
+.text-logo-footer {
+  color: var(--light-color);
+}
+/*==============/FOOTER============*/
 
+/* +++++++++++++++++++++++++++PORTFOLIO++++++++++++++++++++++++ */
 .button-filter {
   font-family: inherit;
   font-weight: 500;
@@ -245,12 +169,22 @@ img {
   cursor: pointer;
 }
 
-.button-filter:hover 
-{background: var(--primary-brand-color);}
+.progect-card-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark-color);
+}
+.button-filter:hover,
 .button-filter:focus {
   color: var(--white-color);
- }
-
+  background: var(--primary-brand-color);
+}
+.model-button:hover,
+.model-button:focus {
+  background: var(--pressed-state-color);
+}
 .sub-text-progect {
   font-weight: 400;
   font-size: 16px;
@@ -258,11 +192,11 @@ img {
   letter-spacing: 0.02em;
   color: var(--text-color);
 }
-
-.progect-card-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--dark-color);
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--pressed-state-color);
+}
+.main-contact:hover,
+.main-contact:focus {
+  color: var(--pressed-state-color);
 }
