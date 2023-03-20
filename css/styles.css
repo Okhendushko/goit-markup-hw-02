@@ -118,8 +118,18 @@ background: var(--dark-color);
   cursor: pointer;
 }
 
-.main-sector-but:is(:hover, :focus) {
-  color: #404bbf;
+.text-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: var(--white-color);
+}
+
+.sector-but:hover,
+.sector-but:focus {
+  background: var(--pressed-state-color);
 }
 
 /*-----------Section-2-------------*/
