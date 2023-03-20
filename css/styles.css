@@ -221,21 +221,30 @@ h3 {
 }
 /* ----------portfolio----------- */
 
-.portfolio-button {
+.button-filter {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  text-align: center;
+  line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
+  color: var(--primary-brand-color);
+  background: var(--light-color);
+  border: 1px solid var(--accent-color);
+  border: transparent;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
-.portfolio-title-photo {
+.button-filter:hover,
+.button-filter:focus {
+  color: var(--white-color);
+  background: var(--primary-brand-color);
+}
+
+.progect-card-title {
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--dark-color);
 }
