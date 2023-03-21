@@ -189,12 +189,15 @@ img {
   color: var(--dark-color);
 }
 
-.button-filter:hover {
-  background: var(--white-color);
-}
-
+.button-filter:hover,
 .button-filter:focus {
-  color: var(--pressed-state-color);
+  background: var(--primary-brand-color);
+  color: var(--white-color);
+  
+}
+.model-button:hover,
+.model-button:focus {
+  background: var(--pressed-state-color);
 }
 
 .sub-text-progect {
