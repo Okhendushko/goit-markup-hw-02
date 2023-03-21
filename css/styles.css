@@ -9,6 +9,14 @@
   --pressed-state-color: #404bbf;
   --white-color: #ffffff;
 }
+
+body {
+  font-family: "Roboto", sans-serif;
+
+  background-color: var(--white-color);
+  color: var(--text-color);
+}
+
 .list {
   list-style: none;
 }
@@ -30,15 +38,6 @@ ol {
 img {
   display: block;
 }
-
-
-body {
-  font-family: "Roboto", sans-serif;
-  
-  background-color: var(--white-color);
-  color: var(--text-color);
-}
-
 
 /* ==========HEADER========= */
 
