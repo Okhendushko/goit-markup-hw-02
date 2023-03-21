@@ -11,10 +11,11 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
-
+  
   background-color: var(--white-color);
   color: var(--text-color);
+  font-family: var(--prime-font);
+
 }
 
 .list {
