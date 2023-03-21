@@ -190,11 +190,11 @@ img {
 }
 
 .button-filter:hover {
-  background: var(--primary-brand-color);
+  background: var(--white-color);
 }
 
 .button-filter:focus {
-  color: var(--white-color);
+  color: var(--pressed-state-color);
 }
 
 .sub-text-progect {
