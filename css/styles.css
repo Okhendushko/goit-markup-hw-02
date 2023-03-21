@@ -188,6 +188,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--dark-color);
 }
+
 .button-filter:hover {
   background: var(--primary-brand-color);
 }
@@ -196,10 +197,6 @@ img {
   color: var(--white-color);
 }
 
-.model-button:hover,
-.model-button:focus {
-  background: var(--pressed-state-color);
-}
 .sub-text-progect {
   font-weight: 400;
   font-size: 16px;
