@@ -11,11 +11,9 @@
 }
 
 body {
-  
   background-color: var(--white-color);
   color: var(--text-color);
   font-family: var(--prime-font);
-
 }
 
 .list {
@@ -41,7 +39,6 @@ img {
 }
 
 /* ==========HEADER========= */
-
 
 .logo-page {
   font-family: var(--second-font);
@@ -151,7 +148,7 @@ img {
 }
 
 .font-list {
-   background-color: var(--white-color)
+  background-color: var(--white-color);
 }
 
 /*==============FOOTER============*/
@@ -171,7 +168,7 @@ img {
 
 /* +++++++++++++++++++++++++++PORTFOLIO++++++++++++++++++++++++ */
 .button-filter {
-  font-family: inherit;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -191,11 +188,14 @@ img {
   letter-spacing: 0.02em;
   color: var(--dark-color);
 }
-.button-filter:hover,
-.button-filter:focus {
-  color: var(--white-color);
+.button-filter:hover {
   background: var(--primary-brand-color);
 }
+
+.button-filter:focus {
+  color: var(--white-color);
+}
+
 .model-button:hover,
 .model-button:focus {
   background: var(--pressed-state-color);
